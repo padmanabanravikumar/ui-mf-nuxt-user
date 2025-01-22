@@ -4,7 +4,7 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   extends: [['github:padmanabanravikumar/ui-mf-nuxt-core#master', { install: true }]],
   routeRules: {
-    '/users': {
+    '/users/**': {
       ssr: false
     }
   }

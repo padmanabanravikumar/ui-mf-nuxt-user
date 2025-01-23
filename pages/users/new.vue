@@ -4,6 +4,6 @@
   </div>
 </template>
 
-<script>
+<script setup>
 import Button from 'primevue/button';
 </script>

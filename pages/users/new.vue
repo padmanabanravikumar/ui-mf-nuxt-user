@@ -1,9 +1,5 @@
 <template>
   <div>
-    <Button label="Save" />
+    <AppButton label="Save" />
   </div>
 </template>
-
-<script setup>
-import Button from 'primevue/button';
-</script>

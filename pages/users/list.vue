@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Button label="Verify" />
+    <AppButton label="Verify" />
     <Card class="mt-16">
       <template #title>
         <h3 class="m-0">Users</h3>
@@ -19,7 +19,6 @@
 </template>
 
 <script setup>
-import Button from 'primevue/button';
 import DataTable from 'primevue/datatable';
 import Card from 'primevue/card';
 import Column from 'primevue/column';

@@ -1,6 +1,6 @@
 export default defineAppConfig({
   routes: {
-    core: [{
+    user: [{
       label: 'Administation',
       icon: 'cog',
       submenus: [
